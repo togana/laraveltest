@@ -18,6 +18,8 @@ $ cd laradock
 $ docker-compose up -d --build nginx php-fpm mysql workspace
 # ワークスペース
 $ docker-compose exec workspace bash
+# パッケージインストール
+$ composer install
 # マイグレーション
 $ php artisan migrate
 # データ挿入
